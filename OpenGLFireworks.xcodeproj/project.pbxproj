@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814DAD5814E016E300948C75 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814DAD5714E016E300948C75 /* Cocoa.framework */; };
+		814DAD6214E016E300948C75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD6014E016E300948C75 /* InfoPlist.strings */; };
+		814DAD6414E016E300948C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DAD6314E016E300948C75 /* main.m */; };
+		814DAD6814E016E300948C75 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD6614E016E300948C75 /* Credits.rtf */; };
+		814DAD6B14E016E300948C75 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DAD6A14E016E300948C75 /* HelloWorldAppDelegate.m */; };
+		814DAD6E14E016E300948C75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD6C14E016E300948C75 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		814DAD5314E016E300948C75 /* OpenGLFireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLFireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814DAD5714E016E300948C75 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		814DAD5A14E016E300948C75 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		814DAD5B14E016E300948C75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		814DAD5C14E016E300948C75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		814DAD5F14E016E300948C75 /* OpenGLFireworks-Info.plist */ = {isa = PBXFileReference; path = "OpenGLFireworks-Info.plist"; sourceTree = "<group>"; };
+		814DAD6114E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		814DAD6314E016E300948C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		814DAD6514E016E300948C75 /* OpenGLFireworks-Prefix.pch */ = {isa = PBXFileReference; path = "OpenGLFireworks-Prefix.pch"; sourceTree = "<group>"; };
+		814DAD6714E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		814DAD6914E016E300948C75 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		814DAD6A14E016E300948C75 /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		814DAD6D14E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814DAD5014E016E300948C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DAD5814E016E300948C75 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814DAD4814E016E300948C75 = {
+			isa = PBXGroup;
+			children = (
+				814DAD5D14E016E300948C75 /* OpenGLFireworks */,
+				814DAD5614E016E300948C75 /* Frameworks */,
+				814DAD5414E016E300948C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814DAD5414E016E300948C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD5314E016E300948C75 /* OpenGLFireworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814DAD5614E016E300948C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD5714E016E300948C75 /* Cocoa.framework */,
+				814DAD5914E016E300948C75 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		814DAD5914E016E300948C75 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD5A14E016E300948C75 /* AppKit.framework */,
+				814DAD5B14E016E300948C75 /* CoreData.framework */,
+				814DAD5C14E016E300948C75 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		814DAD5D14E016E300948C75 /* OpenGLFireworks */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD6914E016E300948C75 /* HelloWorldAppDelegate.h */,
+				814DAD6A14E016E300948C75 /* HelloWorldAppDelegate.m */,
+				814DAD6C14E016E300948C75 /* MainMenu.xib */,
+				814DAD5E14E016E300948C75 /* Supporting Files */,
+			);
+			path = OpenGLFireworks;
+			sourceTree = "<group>";
+		};
+		814DAD5E14E016E300948C75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				814DAD5F14E016E300948C75 /* OpenGLFireworks-Info.plist */,
+				814DAD6014E016E300948C75 /* InfoPlist.strings */,
+				814DAD6314E016E300948C75 /* main.m */,
+				814DAD6514E016E300948C75 /* OpenGLFireworks-Prefix.pch */,
+				814DAD6614E016E300948C75 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814DAD5214E016E300948C75 /* OpenGLFireworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814DAD7114E016E300948C75 /* Build configuration list for PBXNativeTarget "OpenGLFireworks" */;
+			buildPhases = (
+				814DAD4F14E016E300948C75 /* Sources */,
+				814DAD5014E016E300948C75 /* Frameworks */,
+				814DAD5114E016E300948C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLFireworks;
+			productName = OpenGLFireworks;
+			productReference = 814DAD5314E016E300948C75 /* OpenGLFireworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814DAD4A14E016E300948C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 814DAD4D14E016E300948C75 /* Build configuration list for PBXProject "OpenGLFireworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 814DAD4814E016E300948C75;
+			productRefGroup = 814DAD5414E016E300948C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814DAD5214E016E300948C75 /* OpenGLFireworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814DAD5114E016E300948C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DAD6214E016E300948C75 /* InfoPlist.strings in Resources */,
+				814DAD6814E016E300948C75 /* Credits.rtf in Resources */,
+				814DAD6E14E016E300948C75 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814DAD4F14E016E300948C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DAD6414E016E300948C75 /* main.m in Sources */,
+				814DAD6B14E016E300948C75 /* HelloWorldAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		814DAD6014E016E300948C75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DAD6114E016E300948C75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		814DAD6614E016E300948C75 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DAD6714E016E300948C75 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		814DAD6C14E016E300948C75 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DAD6D14E016E300948C75 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		814DAD6F14E016E300948C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		814DAD7014E016E300948C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		814DAD7214E016E300948C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLFireworks/OpenGLFireworks-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLFireworks/OpenGLFireworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		814DAD7314E016E300948C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenGLFireworks/OpenGLFireworks-Prefix.pch";
+				INFOPLIST_FILE = "OpenGLFireworks/OpenGLFireworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814DAD4D14E016E300948C75 /* Build configuration list for PBXProject "OpenGLFireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DAD6F14E016E300948C75 /* Debug */,
+				814DAD7014E016E300948C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814DAD7114E016E300948C75 /* Build configuration list for PBXNativeTarget "OpenGLFireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DAD7214E016E300948C75 /* Debug */,
+				814DAD7314E016E300948C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814DAD4A14E016E300948C75 /* Project object */;
+}
