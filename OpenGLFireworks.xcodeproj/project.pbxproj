@@ -13,6 +13,7 @@
 		814DAD6814E016E300948C75 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD6614E016E300948C75 /* Credits.rtf */; };
 		814DAD6B14E016E300948C75 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DAD6A14E016E300948C75 /* HelloWorldAppDelegate.m */; };
 		814DAD6E14E016E300948C75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 814DAD6C14E016E300948C75 /* MainMenu.xib */; };
+		814DAD7514E0173400948C75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814DAD7414E0173400948C75 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		814DAD5A14E016E300948C75 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		814DAD5B14E016E300948C75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		814DAD5C14E016E300948C75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		814DAD5F14E016E300948C75 /* OpenGLFireworks-Info.plist */ = {isa = PBXFileReference; path = "OpenGLFireworks-Info.plist"; sourceTree = "<group>"; };
+		814DAD5F14E016E300948C75 /* OpenGLFireworks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLFireworks-Info.plist"; sourceTree = "<group>"; };
 		814DAD6114E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		814DAD6314E016E300948C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		814DAD6514E016E300948C75 /* OpenGLFireworks-Prefix.pch */ = {isa = PBXFileReference; path = "OpenGLFireworks-Prefix.pch"; sourceTree = "<group>"; };
+		814DAD6514E016E300948C75 /* OpenGLFireworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGLFireworks-Prefix.pch"; sourceTree = "<group>"; };
 		814DAD6714E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		814DAD6914E016E300948C75 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		814DAD6914E016E300948C75 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
 		814DAD6A14E016E300948C75 /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
 		814DAD6D14E016E300948C75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		814DAD7414E0173400948C75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814DAD7514E0173400948C75 /* QuartzCore.framework in Frameworks */,
 				814DAD5814E016E300948C75 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +66,7 @@
 		814DAD5614E016E300948C75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				814DAD7414E0173400948C75 /* QuartzCore.framework */,
 				814DAD5714E016E300948C75 /* Cocoa.framework */,
 				814DAD5914E016E300948C75 /* Other Frameworks */,
 			);
